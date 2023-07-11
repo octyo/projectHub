@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>TicTacToe-AI</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="tictactoe.css">
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="grid-item" id="grid1" onclick="input(1)"><img class="circles" id="img1" src="/AI/assets/cross.png" style="visibility:hidden"></div>
+            <div class="grid-item" id="grid2" onclick="input(2)"><img class="circles" id="img2" src="/AI/assets/cross.png" style="visibility:hidden"></div>
+            <div class="grid-item" id="grid3" onclick="input(3)"><img class="circles" id="img3" src="/AI/assets/cross.png" style="visibility:hidden"></div>
+            <div class="grid-item" id="grid4" onclick="input(4)"><img class="circles" id="img4" src="/AI/assets/cross.png" style="visibility:hidden"></div>
+            <div class="grid-item" id="grid5" onclick="input(5)"><img class="circles" id="img5" src="/AI/assets/cross.png" style="visibility:hidden"></div>
+            <div class="grid-item" id="grid6" onclick="input(6)"><img class="circles" id="img6" src="/AI/assets/cross.png" style="visibility:hidden"></div>
+            <div class="grid-item" id="grid7" onclick="input(7)"><img class="circles" id="img7" src="/AI/assets/cross.png" style="visibility:hidden"></div>
+            <div class="grid-item" id="grid8" onclick="input(8)"><img class="circles" id="img8" src="/AI/assets/cross.png" style="visibility:hidden"></div>
+            <div class="grid-item" id="grid9" onclick="input(9)"><img class="circles" id="img9" src="/AI/assets/cross.png" style="visibility:hidden"></div>
+          </div> 
+        <h1 style="visibility: hidden; text-align: center;" id="winner">Win</h1>
+        <h1 style="visibility: hidden; text-align: center;" id="loser">Loss</h1>
+        <label class="switch" id="checker">
+            <button id="myCheck" onclick="aiStart()" type="button">Let the AI start</button>
+        </label>
+        <script src="tictactoe.js" async defer></script>
+    </body>
+</html>

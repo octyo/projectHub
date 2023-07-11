@@ -1,0 +1,30 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    padding: 10px;
+}
+.grid-item {
+
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+#grid1, #grid2, #grid4, #grid5 {
+    border-right: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+#grid3, #grid6 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+#grid7, #grid8 {
+    border-right: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+
+.circles {
+    width: 100px;
+}
+
